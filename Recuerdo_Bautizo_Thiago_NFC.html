@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Recuerdo de mi Bautizo - Thiago Gutiérrez García</title>
+<style>
+  body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(to bottom, #b3e5fc, #e1f5fe);
+    text-align: center;
+    color: #333;
+    overflow-x: hidden;
+  }
+  .container {
+    max-width: 450px;
+    margin: auto;
+    padding: 20px;
+  }
+  h1 {
+    font-size: 2em;
+    color: #2c3e50;
+    animation: fadeIn 2s ease-in;
+  }
+  h2 {
+    color: #1565c0;
+    font-size: 1.6em;
+    animation: slideIn 2s ease-out;
+  }
+  p {
+    font-size: 1.1em;
+    margin: 10px 0;
+  }
+  .photo-frame {
+    background: white;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    margin: 20px auto;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    animation: float 6s ease-in-out infinite;
+  }
+  .photo-frame img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .cross {
+    width: 60px;
+    margin-top: 10px;
+    animation: shine 3s infinite alternate;
+  }
+  .gallery {
+    margin-top: 30px;
+  }
+  .photo-placeholder {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 8px;
+    border-radius: 15px;
+    background: #f0f0f0;
+    border: 2px dashed #bbb;
+  }
+  .button {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 12px 25px;
+    background: #42a5f5;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: 0.3s;
+  }
+  .button:hover {
+    background: #1e88e5;
+  }
+  .thanks {
+    margin-top: 40px;
+    font-style: italic;
+    color: #444;
+  }
+
+  /* Animaciones */
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+  @keyframes slideIn {
+    from {transform: translateY(20px); opacity: 0;}
+    to {transform: translateY(0); opacity: 1;}
+  }
+  @keyframes shine {
+    from {filter: brightness(1);}
+    to {filter: brightness(1.5);}
+  }
+  @keyframes float {
+    0%, 100% {transform: translateY(0);}
+    50% {transform: translateY(-10px);}
+  }
+  /* Si agregas fotos reales */
+  .gallery img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 18px;
+    border: 3px solid #aac8ff;
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <img class="cruz" alt="Cruz Dorada" src="data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkQ5MzAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIiB2aWV3Qm94PSIwIDAgNjQgNjQiPjxwYXRoIGQ9Ik0yNiAwdjE0aC0xNHYxMmgxNHYxOGgxMnYtMThoMTR2LTEyaC0xNHYtMTRoLTEyeiIvPjwvc3ZnPg==" />
+    <h1>Recuerdo de mi Bautizo</h1>
+    <h2>Thiago Gutiérrez García</h2>
+    <p><strong>Diciembre 2025</strong></p>
+    <p>Tlachichila, Nochistlán de Mejía, Zacatecas</p>
+    <p><em>"Bajo la luz de Dios, tu camino comienza, guiado por el amor y la fe de quienes te rodean."</em></p>
+
+    <div class="photo-frame">
+      <img src="WhatsApp-Image-2025-10-22-at-7.16.35-PM.jpeg" alt="Foto principal de Thiago">
+    </div>
+
+    
+    
+   <div class="gallery">
+      <!-- Modo marcadores vacíos -->
+      <!-- <div class="photo-placeholder">Foto del bautizo</div>
+      <div class="photo-placeholder">Foto familiar</div>
+      <div class="photo-placeholder">Foto con padrinos</div> -->
+
+      <!-- Modo con imágenes reales -->
+      <img src="1.jpg" alt="Foto del bautizo">
+      <img src="2.jpg" alt="Foto familiar">
+      <img src="3.jpg" alt="Foto con padrinos">
+    </div>
+
+    <a href="https://drive.google.com/drive/folders/1NzLoN_lUytGz2YSo-2cm27bTuPAKZB_y?usp=sharing" 
+       class="button" target="_blank">📷 Ver galería completa</a>
+
+    <p class="thanks">Gracias por ser parte de este día tan especial 💙</p>
+  </div>
+</body>
+</html>
