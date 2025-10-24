@@ -63,6 +63,11 @@ color: #b8860b;
     font-size: 1.9em;
     margin: 3px 0;
   }
+@keyframes goldenGlow {
+  0% { box-shadow: 0 0 10px rgba(255, 215, 0, 0.5); }
+  50% { box-shadow: 0 0 45px rgba(255, 215, 0, 0.9); }
+  100% { box-shadow: 0 0 10px rgba(255, 215, 0, 0.5); }
+}
   .photo-frame {
     background: white;
     border-radius: 50%;
@@ -70,9 +75,16 @@ color: #b8860b;
     height: 300px;
     margin: 3px auto;
     overflow: hidden;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-    animation: float 6s ease-in-out infinite;
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.6), 
+              0 0 30px rgba(255, 215, 0, 0.4);
+     animation: float 6s ease-in-out infinite, goldenGlow 3s ease-in-out infinite;
+border: 5px solid #eac102; /* Dorado brillante */
   }
+
+
+
+
+
   .photo-frame img {
     width: 100%;
     height: 100%;
@@ -168,9 +180,11 @@ color: #b8860b;
        class="button" target="_blank">📷 Ver galería completa</a>
 
     <p class="thanks">Gracias por ser parte de este día tan especial 💙</p>
+<p class="thanks">Atentamente Familia Garcia</p>
   </div>
 </body>
 </html>
+
 
 
 
